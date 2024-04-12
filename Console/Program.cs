@@ -1,4 +1,5 @@
 ﻿using System;
+using System.math;
 
 namespace GithubActionsLab
 {
@@ -84,7 +85,7 @@ namespace GithubActionsLab
         // Implement this method following a similar pattern as above
         public static double Power(string x, string y)
         {
-            return double.Parse(x) ^ double.Parse(y);
+            return Math.Pow(sting x, string y);
         }
     }
 
